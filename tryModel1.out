@@ -1,0 +1,118 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 2
+
+Project: ATM machine system                                          Run execution date : 2/ 1/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 2/ 1/2021
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .10101     (Insuf)    .06617     .13220        165    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        165    
+Customer.WaitTime                           .10191     (Insuf)    .00000     .47635        165    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        165    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        165    
+Customer.TotalTime                          .20291     (Insuf)    .07550     .59563        165    
+ATM machine system.Queue.WaitingTime        .10339     (Insuf)    .00000     .47635        166    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                1.4164     .33226     .00000     6.0000     3.0000    
+ATM machine.NumberBusy                      .69513     (Insuf)    .00000     1.0000     1.0000    
+ATM machine.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATM machine.Utilization                     .69513     (Insuf)    .00000     1.0000     1.0000    
+ATM machine system.Queue.NumberInQueue      .72132     (Insuf)    .00000     5.0000     2.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           168.00    
+Customer.NumberOut                          165.00    
+ATM machine.NumberSeized                    166.00    
+ATM machine.ScheduledUtilization            .69513    
+System.NumberOut                            165.00    
+
+Beginning replication 2 of 2
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 2 of 2
+
+Project: ATM machine system                                          Run execution date : 2/ 1/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 2/ 1/2021
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .10093     (Insuf)    .07645     .12974        182    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        182    
+Customer.WaitTime                           .15359     (Insuf)    .00000     .54868        182    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        182    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        182    
+Customer.TotalTime                          .25452     (Insuf)    .08258     .64390        182    
+ATM machine system.Queue.WaitingTime        .15314     (Insuf)    .00000     .54868        183    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                1.9343     .51464     .00000     7.0000     1.0000    
+ATM machine.NumberBusy                      .76667     (Insuf)    .00000     1.0000     1.0000    
+ATM machine.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+ATM machine.Utilization                     .76667     (Insuf)    .00000     1.0000     1.0000    
+ATM machine system.Queue.NumberInQueue      1.1676     (Insuf)    .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           183.00    
+Customer.NumberOut                          182.00    
+ATM machine.NumberSeized                    183.00    
+ATM machine.ScheduledUtilization            .76667    
+System.NumberOut                            182.00    
+
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Output Summary for 2 Replications
+
+Project: ATM machine system                                          Run execution date : 2/ 1/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 2/ 1/2021
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Customer.NumberIn                           175.50     95.295     168.00     183.00     2
+Customer.NumberOut                          173.50     108.00     165.00     182.00     2
+ATM machine.NumberSeized                    174.50     108.00     166.00     183.00     2
+ATM machine.ScheduledUtilization            .73090     .45451     .69513     .76667     2
+System.NumberOut                            173.50     108.00     165.00     182.00     2
+
+Simulation run time: 0.55 minutes.
+Simulation run complete.
